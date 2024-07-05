@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 42.5%;
+  /* font-size: 62.5%; */
+}
+
+@font-face {
+  font-family: china;
+  src: url("./NeueMachina-Regular.otf");
+}
+
+section {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6rem 10rem;
+}
+
+.part2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8rem;
+}
+
+nav h1 {
+  font-size: 5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+nav h1 i {
+  display: inline-block;
+  rotate: 45deg;
+  font-size: 5.5rem;
+}
+
+nav h4 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  font-family: china;
+  font-weight: 500;
+}
+
+nav button {
+  padding: 2.2rem 4rem;
+  background-color: transparent;
+  font-size: 2.2rem;
+  border-radius: 1rem;
+  border: 0.1rem solid #000;
+  font-family: china;
+  font-weight: 500;
+}
+
+.center {
+  padding: 7rem 10rem;
+  height: 80%;
+  width: 100%;
+  display: flex;
+}
+
+.center-part1 {
+  height: 100%;
+  width: 46%;
+}
+
+.center-part1 h1 {
+  line-height: 1.2;
+  font-size: 10rem;
+  font-family: china;
+}
+
+.center-part1 p {
+  font-size: 2.8rem;
+  width: 96%;
+  margin-top: 5rem;
+  margin-bottom: 3.5rem;
+}
+
+.center-part1 button {
+  background-color: #000;
+  color: #fff;
+  border-radius: 1.5rem;
+  padding: 2.5rem 4rem;
+  font-size: 2.5rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+
+.center-part2 {
+  height: 100%;
+  width: 54%;
+  position: relative;
+}
+
+.center-part2 img {
+  height: 100%;
+  position: absolute;
+  right: 0;
+}
+
+.section1bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem 12rem;
+}
+
+.section1bottom img {
+  height: 6rem;
+}
+
+.section2 .services {
+  background-color: red;
+}
